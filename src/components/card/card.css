@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+}
+.card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+.textblock {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    font-family: Georgia;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px;
+    border-style: solid;
+    width: 150px; opacity: 0; 
+}
+.image-container:hover .textblock {
+    opacity: 1; 
+     
+}
+.textblock:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: white
+    
+}
+

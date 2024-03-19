@@ -1,0 +1,73 @@
+/* .container {
+    position: center;
+    text-align: center;
+  }
+  
+
+  
+.text-block-jacket{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 230, 230);
+    opacity: 0.8;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 230, 230);
+    opacity: 0.8;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+  .container {
+    position: relative;
+}
+.container:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
+.text-block,
+.text-block-jacket,
+.text-block-sneaker,
+.text-block-women,
+.text-block-men {
+    position: absolute;
+    bottom: 120px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(237, 235, 235, 0.498); 
+    padding: 30px;
+    border: 0px;
+    border-style: solid;
+}
+
+.text-block h3,
+.text-block-jacket h3,
+.text-block-sneaker h3,
+.text-block-women h3,
+.text-block-men h3 {
+    margin: 0;
+}
+
+.text-block p,
+.text-block-jacket p,
+.text-block-sneaker p,
+.text-block-women p,
+.text-block-men p {
+    margin: 5px 0;
+}
